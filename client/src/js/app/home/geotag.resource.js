@@ -8,14 +8,21 @@ angular.module('demoApp.home')
         var myModel = Restangular.all('geotags');
 
         var resource = {
-            uploadItem: function (_file, _caption) {
+            uploadItem: function (_file, _caption, latlng) {
                 var uploadUrl = myModel.getRestangularUrl() + '/upload',
                     caption = _caption || '';
+
+                var params = {file: _file, caption: caption};
+
+                if (latlng) {
+                    params['lat'] = latlng['lat']
+                    params['lng'] = latlng['lng']
+                }
 
                 return Upload.upload({
                     url: uploadUrl,
                     method: 'POST',
-                    data: {file: _file, caption: caption}
+                    data: params
                 });
             }
         };

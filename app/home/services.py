@@ -15,43 +15,44 @@ UPLOAD_FOLDER = app.config['UPLOAD_FOLDER']
 KMZ_PATH = app.config['KMZ_PATH']
 
 
-def get_location_by_geolocation_api():
-    url = 'https://www.googleapis.com/geolocation/v1/geolocate?key=' + app.config.get('GOOGLE_MAP_API_KEY')
-    headers = {'Content-Type': 'application/json'}
-    response = requests.post(url, data=json.dumps({'considerIp': 'true'}), verify=False, headers=headers)
-    if response.content:
-        content = response.json()
-        # log.debug("geolocation api response: {0}".format(content))
-        return {
-            'lat': content['location']['lat'],
-            'lng': content['location']['lng']
-        }
+# def get_location_by_geolocation_api():
+#     url = 'https://www.googleapis.com/geolocation/v1/geolocate?key=' + app.config.get('GOOGLE_MAP_API_KEY')
+#     headers = {'Content-Type': 'application/json'}
+#     response = requests.post(url, data=json.dumps({'considerIp': 'true'}), verify=False, headers=headers)
+#     if response.content:
+#         content = response.json()
+#         # log.debug("geolocation api response: {0}".format(content))
+#         return {
+#             'lat': content['location']['lat'],
+#             'lng': content['location']['lng']
+#         }
+#     return None
 
-    return None
 
+def process_geotag(file, params):
+    caption = params['caption']
 
-def process_geotag(file, caption):
     upload = UploadResource()
     filename = upload.copy_file(file)
     pic_filepath = os.path.join(UPLOAD_FOLDER, filename)
 
-    img_data = gpsimage.open(pic_filepath)
-    img_data_json = img_data.json
-    # log.debug('img data JSON: {0}'.format(img_data_json))
-    # log.debug('img data: {0}'.format(img_data))
-
-    if img_data_json['status'] == 'OK':
+    if 'lat' in params and 'lng' in params:
         latlng = {
-            'lat': img_data.lat,
-            'lng': img_data.lng
+            'lat': params['lat'],
+            'lng': params['lng']
         }
     else:
-        latlng = get_location_by_geolocation_api()
-        log.debug("GEOLOCATION LATLNG: {0}".format(latlng))
-        if latlng is None:
-            return False
-
-    # log.debug("LATLNG: {0}".format(latlng))
+        img_data = gpsimage.open(pic_filepath)
+        img_data_json = img_data.json
+        if img_data_json['status'] == 'OK':
+            latlng = {
+                'lat': img_data.lat,
+                'lng': img_data.lng
+            }
+        else:
+            return {
+                'status': 'FAILED'
+            }
 
     kml = simplekml.Kml(name=caption)
     kml_picpath = kml.addfile(pic_filepath)
@@ -63,7 +64,6 @@ def process_geotag(file, caption):
     point.style.labelstyle.scale = 2
     point.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/pal2/icon13.png'
 
-    # kmz_filename = filename.rsplit('.', 1)[0].lower() + '.kmz'
     kmz_filename = 'geotag.kmz'
 
     kmz_filepath = os.path.join(KMZ_PATH, kmz_filename)
@@ -72,20 +72,18 @@ def process_geotag(file, caption):
     return {
         'latlng': latlng,
         'filename': kmz_filename,
-        'filepath': kmz_filepath
+        'filepath': kmz_filepath,
+        'status': 'OK'
     }
 
 
 def new_geotag(file, data):
+    geotag_dict = process_geotag(file, data)
     # Prepare Data
     # model = Geotag(caption=data['caption'])
-    geotag_dict = process_geotag(file, data['caption'])
-
     # model.filename = geotag_dict['filename']
     # model.coordinates = forms_helper.parse_coordinates(geotag_dict['latlng'])
-
     # Persist
     # db.session.add(model)
     # db.session.commit()
-
     return geotag_dict

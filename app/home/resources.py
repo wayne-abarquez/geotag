@@ -25,14 +25,9 @@ class GeotagFileResource(UploadResource):
 
         if uploaded_file and self.allowed_file(uploaded_file.filename):
             result_dict = new_geotag(uploaded_file, data)
-            return request.url_root + 'static/kmz/' + result_dict['filename']
-            # return send_from_directory(KMZ_PATH, result_dict['filename'], as_attachment=True, mimetype="application/vnd.google-earth.kmz")
-            # resp = Response(
-            #     file,
-            #     mimetype="application/vnd.google-earth.kmz",
-            #     headers={"Content-disposition": "attachment; filename=" + result_dict['filename']}
-            # )
-            # return resp
+            if 'filename' in result_dict:
+                result_dict['geotag_url'] = request.url_root + 'static/kmz/' + result_dict['filename']
+            return result_dict
             # result = dict(geotag=resp)
             # return marshal(result, geotag_raw_fields)
         else:
