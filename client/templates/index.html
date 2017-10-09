@@ -6,7 +6,7 @@
                 src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,places"></script>
 
     <div id="index-container" layout="row" layout-align="center stretch" flex ng-controller="indexController as indexCtl">
-        <div layout="row" layout-align="center stretch" flex>
+        <div layout="row" layout-align="center stretch" layout-margin flex>
             <md-button id="camera-btn" aria-label="Open Camera" ng-click="indexCtl.openCamera()">
                 <md-icon>&#xE412;</md-icon>
             </md-button>
@@ -16,6 +16,7 @@
                 <label>Caption</label>
                 <input ng-model="indexCtl.caption">
             </md-input-container>
+            <span us-spinner="{radius:30, width:8, length: 16}" spinner-on="indexCtl.showSpinner"></span>
         </div>
     </div>
     {% endraw %}

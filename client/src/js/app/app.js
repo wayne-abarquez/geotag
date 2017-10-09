@@ -8,6 +8,7 @@
             'restangular',
             'oitozero.ngSweetAlert',
             'ngFileUpload',
+            'angularSpinner',
             'demoApp.home'
         ])
 

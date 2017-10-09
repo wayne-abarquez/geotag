@@ -22,6 +22,7 @@ class Config(object):
     ALLOWED_PHOTO_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
     UPLOAD_FOLDER = '/var/www/' + project_name + '/client/static/uploads'
     KMZ_PATH = '/var/www/' + project_name + '/client/static/kmz'
+    GOOGLE_MAP_API_KEY = 'AIzaSyBU2IhITO_ygNUan5ortuYxJc6idxrsFlE'  # this is navagis-powered demo api key
 
 
 class DevelopmentConfig(Config):

@@ -31,15 +31,15 @@
             showToast(message, 'top right');
         }
 
-        function showSuccess(message) {
-            showMessage(message, 'success');
-        }
-
         function showMessage(message, type) {
             SweetAlert.swal({
                 title: message,
                 type: type
             });
+        }
+
+        function showSuccess(message) {
+            showMessage(message, 'success');
         }
 
         function showNoDataAvailablePrompt(entityName) {

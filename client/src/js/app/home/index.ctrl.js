@@ -2,10 +2,12 @@
 'use strict';
 
 angular.module('demoApp.home')
-    .controller('indexController', ['$mdSidenav', 'Geotag', indexController]);
+    .controller('indexController', ['$mdSidenav', 'Geotag', 'alertServices', '$timeout', indexController]);
 
-    function indexController ($mdSidenav, Geotag) {
+    function indexController ($mdSidenav, Geotag, alertServices, $timeout) {
         var vm = this;
+
+        vm.showSpinner = false;
 
         vm.initialize = initialize;
         vm.openCamera = openCamera;
@@ -16,7 +18,6 @@ angular.module('demoApp.home')
         vm.initialize();
 
         function initialize() {
-            console.log('initialize called');
             document.getElementById('camera-input').addEventListener('change', photoChanged);
         }
 
@@ -31,13 +32,20 @@ angular.module('demoApp.home')
 
             if (!fileInput.length) return;
 
+            vm.showSpinner = true;
+
             Geotag.uploadItem(fileInput[0], vm.caption)
                 .then(function(response){
                     console.log('response: ',response);
                     //window.location = response.data;
-                    alert('Photo successfully uploaded.');
+                    vm.caption = '';
+                    alertServices.showTopRightToast('Photo successfully uploaded.');
                 }, function (error) {
-
+                    console.log('error: ',error);
+                }).finally(function(){
+                    $timeout(function(){
+                        vm.showSpinner = false;
+                    }, 500);
                 });
         }
 
