@@ -50,6 +50,7 @@ def process_geotag(file, params):
                 'lng': img_data.lng
             }
         else:
+            os.remove(pic_filepath)
             return {
                 'status': 'FAILED'
             }
@@ -68,6 +69,7 @@ def process_geotag(file, params):
 
     kmz_filepath = os.path.join(KMZ_PATH, kmz_filename)
     kml.savekmz(kmz_filepath, format=False)
+    os.remove(pic_filepath)
 
     return {
         'latlng': latlng,
