@@ -2,9 +2,8 @@ import os
 
 base_dir = os.path.abspath(os.path.dirname(__file__))
 
-# TODO Change info below according to project
-project_name = 'demo_boilerplate'
-db_name = 'demo'
+project_name = 'geotag'
+db_name = 'geotag_poc'
 db_user = 'demouser'
 
 
@@ -20,6 +19,9 @@ class Config(object):
     TMP_DIR = '/var/www/' + project_name + '/tmp'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     SQLALCHEMY_DATABASE_URI = 'postgresql://' + db_user + ':youcantguess@localhost:5432/' + db_name
+    ALLOWED_PHOTO_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
+    UPLOAD_FOLDER = '/var/www/' + project_name + '/client/static/uploads'
+    KMZ_PATH = '/var/www/' + project_name + '/client/static/kmz'
 
 
 class DevelopmentConfig(Config):

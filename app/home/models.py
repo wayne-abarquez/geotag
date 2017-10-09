@@ -1,45 +1,13 @@
 from app import db
-from app.utils.orm_object import OrmObject
 from app.models import BaseModel
 from geoalchemy2 import Geometry
-from flask import url_for
 
 
-# class Solar(BaseModel):
-#     project_name = db.Column(db.String(50), nullable=False)
-#     client_name = db.Column(db.String(50))
-#     client_contact_no = db.Column(db.String(50))
-#     coordinates = db.Column(Geometry('POINT'), nullable=False)
-#     area = db.Column(Geometry('POLYGON'))
-#     address = db.Column(db.Text)
-#     state = db.Column(db.String(100))
-#     county = db.Column(db.String(100))
-#     site_description = db.Column(db.Text)
-#     status = db.Column(db.String(10), nullable=False, default='In-Process')
-#
-#     def get_panels_data(self):
-#         panels = []
-#         for panel in self.panels:
-#             panels.append(panel.to_dict())
-#         return panels
-#
-#     def get_photos_data(self):
-#         photos = []
-#         for photo in self.files:
-#             photo_dict = photo.to_dict()
-#             photo_dict['src'] = photo.get_url()
-#             photos.append(photo_dict)
-#         return photos
-#
-#
-# class SolarPanels(BaseModel):
-#     solar_id = db.Column(db.Integer, db.ForeignKey('solar.id'), nullable=False)
-#     name = db.Column(db.String(50), nullable=False)
-#     area = db.Column(Geometry('POLYGON'), nullable=False)
-#     size = db.Column(db.String(100))
-#     solar = db.relationship(Solar, backref='panels')
-#
-#
+class Geotag(BaseModel):
+    caption = db.Column(db.Text)
+    filename = db.Column(db.String(200), nullable=False)
+    coordinates = db.Column(Geometry('POINT'), nullable=False)
+
 # class SolarFile(BaseModel):
 #     solar_id = db.Column(db.Integer, db.ForeignKey('solar.id'), nullable=False)
 #     caption = db.Column(db.Text)

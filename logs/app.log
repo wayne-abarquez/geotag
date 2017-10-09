@@ -1,96 +1,184 @@
-2016-02-01 15:35:35,258 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-01 15:35:35,258 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-01 15:35:35,459 INFO - run.py <module>: Starting app
-2016-02-01 18:23:10,682 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-01 18:23:10,682 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-01 18:23:10,846 INFO - run.py <module>: Starting app
-2016-02-01 18:24:39,220 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-01 18:24:39,220 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-01 18:24:39,244 INFO - run.py <module>: Starting app
-2016-02-01 18:27:27,055 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-01 18:27:27,055 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-01 18:27:27,075 INFO - run.py <module>: Starting app
-2016-02-01 18:35:12,295 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-01 18:35:12,295 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-01 18:35:12,314 INFO - run.py <module>: Starting app
-2016-02-02 13:11:34,675 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-02 13:11:34,675 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-02 13:11:36,266 INFO - run.py <module>: Starting app
-2016-02-03 19:07:19,050 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-03 19:07:19,050 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-03 19:07:19,560 INFO - run.py <module>: Starting app
-2016-02-03 20:43:05,988 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-03 20:43:05,988 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-03 20:43:06,142 INFO - run.py <module>: Starting app
-2016-02-11 20:29:03,916 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-11 20:29:03,916 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-11 20:29:04,491 INFO - run.py <module>: Starting app
-2016-02-17 14:47:28,056 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-02-17 14:47:28,056 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-02-17 14:47:28,279 INFO - run.py <module>: Starting app
-2016-03-03 18:09:35,588 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-03-03 18:09:35,588 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-03-03 18:09:35,846 INFO - run.py <module>: Starting app
-2016-03-17 15:40:32,285 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-03-17 15:40:32,285 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-03-17 15:40:32,406 INFO - run.py <module>: Starting app
-2016-05-04 16:12:27,110 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:12:27,110 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:12:27,242 INFO - run.py <module>: Starting app
-2016-05-04 16:13:59,865 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:13:59,865 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:13:59,874 INFO - run.py <module>: Starting app
-2016-05-04 16:15:39,574 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:15:39,574 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:15:39,583 INFO - run.py <module>: Starting app
-2016-05-04 16:17:02,531 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:17:02,531 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:17:02,539 INFO - run.py <module>: Starting app
-2016-05-04 16:17:53,824 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:17:53,824 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:17:53,832 INFO - run.py <module>: Starting app
-2016-05-04 16:18:10,853 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:18:10,853 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:18:10,861 INFO - run.py <module>: Starting app
-2016-05-04 16:18:40,785 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:18:40,785 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:18:40,792 INFO - run.py <module>: Starting app
-2016-05-04 16:18:54,373 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:18:54,373 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:18:54,385 INFO - run.py <module>: Starting app
-2016-05-04 16:21:47,261 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:21:47,261 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:21:47,270 INFO - run.py <module>: Starting app
-2016-05-04 16:23:23,954 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:23:23,954 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:23:23,962 INFO - run.py <module>: Starting app
-2016-05-04 16:23:49,905 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:23:49,905 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:23:49,914 INFO - run.py <module>: Starting app
-2016-05-04 16:26:43,328 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:26:43,328 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:26:43,337 INFO - run.py <module>: Starting app
-2016-05-04 16:26:57,771 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:26:57,771 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:26:57,779 INFO - run.py <module>: Starting app
-2016-05-04 16:29:03,331 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:29:03,331 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:29:03,339 INFO - run.py <module>: Starting app
-2016-05-04 16:34:24,004 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:34:24,004 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:34:24,013 INFO - run.py <module>: Starting app
-2016-05-04 16:35:04,539 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-05-04 16:35:04,539 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-05-04 16:35:04,547 INFO - run.py <module>: Starting app
-2016-06-06 17:34:51,843 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-06-06 17:34:51,843 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-06-06 17:34:51,987 INFO - run.py <module>: Starting app
-2016-06-06 17:35:13,348 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-06-06 17:35:13,348 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-06-06 17:35:13,356 INFO - run.py <module>: Starting app
-2016-06-06 17:35:28,293 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-06-06 17:35:28,293 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-06-06 17:35:28,301 INFO - run.py <module>: Starting app
-2016-06-06 17:36:08,046 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-06-06 17:36:08,046 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-06-06 17:36:08,055 INFO - run.py <module>: Starting app
-2016-06-06 18:05:44,750 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2016-06-06 18:05:44,750 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2016-06-06 18:05:44,782 INFO - run.py <module>: Starting app
-2017-07-06 15:34:39,100 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 15:34:39,100 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 15:34:39,584 INFO - run.py <module>: Starting app
-2017-07-06 15:47:51,150 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 15:47:51,150 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 15:47:51,261 INFO - run.py <module>: Starting app
-2017-07-06 16:03:22,775 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:03:22,775 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:03:22,868 INFO - run.py <module>: Starting app
-2017-07-06 16:42:55,125 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:42:55,125 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:42:55,250 INFO - run.py <module>: Starting app
-2017-07-06 16:43:07,464 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:43:07,464 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:43:07,470 INFO - run.py <module>: Starting app
-2017-07-06 16:44:02,980 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:44:02,980 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:44:02,986 INFO - run.py <module>: Starting app
-2017-07-06 16:45:34,381 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:45:34,381 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:45:34,389 INFO - run.py <module>: Starting app
-2017-07-06 16:46:02,470 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:46:02,470 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:46:02,475 INFO - run.py <module>: Starting app
-2017-07-06 16:46:44,009 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:46:44,009 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:46:44,014 INFO - run.py <module>: Starting app
-2017-07-06 16:47:49,591 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:47:49,591 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:47:49,597 INFO - run.py <module>: Starting app
-2017-07-06 16:48:27,485 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:48:27,485 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:48:27,490 INFO - run.py <module>: Starting app
-2017-07-06 16:50:11,147 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:50:11,147 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:50:11,265 INFO - run.py <module>: Starting app
-2017-07-06 16:50:59,235 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:50:59,235 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:50:59,242 INFO - run.py <module>: Starting app
-2017-07-06 16:51:23,624 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:51:23,624 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:51:23,631 INFO - run.py <module>: Starting app
-2017-07-06 16:52:31,862 INFO - __init__.py <module>: Will output log to /var/www/demo_boilerplate/logs/app.log
+2017-07-06 16:52:31,862 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
 2017-07-06 16:52:31,868 INFO - run.py <module>: Starting app
+2017-10-09 00:10:22,135 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 00:10:52,841 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 00:10:52,849 INFO - run.py <module>: Starting app
+2017-10-09 00:21:29,501 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 00:21:29,503 INFO - run.py <module>: Starting app
+2017-10-09 00:22:22,421 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 00:22:22,423 INFO - run.py <module>: Starting app
+2017-10-09 00:25:20,561 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 00:25:20,576 INFO - run.py <module>: Starting app
+2017-10-09 10:49:06,857 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 10:49:06,874 INFO - run.py <module>: Starting app
+2017-10-09 11:07:48,396 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 11:07:48,533 INFO - run.py <module>: Starting app
+2017-10-09 11:16:51,624 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 11:16:51,633 INFO - run.py <module>: Starting app
+2017-10-09 11:20:52,507 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 11:20:52,510 INFO - run.py <module>: Starting app
+2017-10-09 11:21:24,347 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 11:21:24,350 INFO - run.py <module>: Starting app
+2017-10-09 11:55:11,392 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 11:55:11,848 INFO - run.py <module>: Starting app
+2017-10-09 11:57:29,504 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 11:57:29,564 INFO - run.py <module>: Starting app
+2017-10-09 12:01:00,107 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:01:00,216 INFO - run.py <module>: Starting app
+2017-10-09 12:01:52,705 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:01:52,782 INFO - run.py <module>: Starting app
+2017-10-09 12:02:25,244 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:02:25,310 INFO - run.py <module>: Starting app
+2017-10-09 12:05:22,365 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:05:22,442 INFO - run.py <module>: Starting app
+2017-10-09 12:09:07,915 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:09:07,989 INFO - run.py <module>: Starting app
+2017-10-09 12:11:16,196 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:11:16,284 INFO - run.py <module>: Starting app
+2017-10-09 12:12:41,482 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:12:41,558 INFO - run.py <module>: Starting app
+2017-10-09 12:17:58,889 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:17:58,989 INFO - run.py <module>: Starting app
+2017-10-09 12:20:49,368 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:20:49,446 INFO - run.py <module>: Starting app
+2017-10-09 12:36:58,266 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:37:46,288 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:37:47,128 INFO - run.py <module>: Starting app
+2017-10-09 12:43:57,324 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:43:57,579 INFO - run.py <module>: Starting app
+2017-10-09 12:52:02,779 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 12:52:02,883 INFO - run.py <module>: Starting app
+2017-10-09 13:14:32,823 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:14:34,201 INFO - run.py <module>: Starting app
+2017-10-09 13:34:29,903 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:34:43,498 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:37:30,172 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:40:56,228 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:40:56,335 INFO - run.py <module>: Starting app
+2017-10-09 13:41:11,398 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:43:00,350 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 13:43:00,490 INFO - run.py <module>: Starting app
+2017-10-09 14:05:46,747 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:05:49,797 INFO - run.py <module>: Starting app
+2017-10-09 14:14:30,420 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:14:30,912 INFO - run.py <module>: Starting app
+2017-10-09 14:25:20,567 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:25:20,710 INFO - run.py <module>: Starting app
+2017-10-09 14:30:18,850 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:30:18,986 INFO - run.py <module>: Starting app
+2017-10-09 14:31:18,593 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:31:18,704 INFO - run.py <module>: Starting app
+2017-10-09 14:31:57,185 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:31:57,305 INFO - run.py <module>: Starting app
+2017-10-09 14:33:47,158 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:33:47,295 INFO - run.py <module>: Starting app
+2017-10-09 14:34:28,641 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:34:28,765 INFO - run.py <module>: Starting app
+2017-10-09 14:34:53,480 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:34:53,624 INFO - run.py <module>: Starting app
+2017-10-09 14:39:03,715 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:39:03,845 INFO - run.py <module>: Starting app
+2017-10-09 14:40:32,366 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:40:32,493 INFO - run.py <module>: Starting app
+2017-10-09 14:55:40,862 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:57:50,916 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:58:21,650 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 14:58:22,593 INFO - run.py <module>: Starting app
+2017-10-09 15:00:50,816 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 15:00:51,178 INFO - run.py <module>: Starting app
+2017-10-09 15:03:50,077 INFO - __init__.py <module>: Will output log to /var/www/geotag/logs/app.log
+2017-10-09 15:03:50,244 INFO - run.py <module>: Starting app

@@ -5,17 +5,18 @@
     <script type="text/javascript"
                 src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,places"></script>
 
-    <div id="index-container" ng-controller="indexController as indexCtl">
-        <div ng-controller="gmapController as gmapCtl">
-            <!-- map canvas dimensions will be computed during map initialization -->
-            <div id="map-canvas"></div>
-
-    {% endraw %}
-            <!-- Map Drawing Panel -->
-            {% include "partials/_layer_panel_controls.html" %}
-            {% include "partials/_layer_panel.html" %}
+    <div id="index-container" layout="row" layout-align="center stretch" flex ng-controller="indexController as indexCtl">
+        <div layout="row" layout-align="center stretch" flex>
+            <md-button id="camera-btn" aria-label="Open Camera" ng-click="indexCtl.openCamera()">
+                <md-icon>&#xE412;</md-icon>
+            </md-button>
+            <input id="camera-input" class="md-button md-ink-ripple" aria-label="Open Camera"  type="file" accept="image/*" capture="camera"
+                ng-hide="true"/>
+            <md-input-container>
+                <label>Caption</label>
+                <input ng-model="indexCtl.caption">
+            </md-input-container>
         </div>
-    {% raw %}
     </div>
     {% endraw %}
 

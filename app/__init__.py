@@ -41,11 +41,6 @@ if app.config['LOG_FILENAME']:
 # global instance of flask-restful, used by resources
 rest_api = restful.Api(app, catch_all_404s=True)
 
-# monkey patch WTForm classes
-import wtforms_json
-
-wtforms_json.init()
-
 # Import app/resources
 from .home.resources import *
 

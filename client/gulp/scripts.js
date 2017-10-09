@@ -16,9 +16,10 @@ gulp.task('vendor-scripts', function () {
         paths.bower + 'angular-aria/angular-aria.min.js',
         paths.bower + 'angular-cookies/angular-cookies.min.js',
         paths.bower + 'angular-material/angular-material.js',
+        paths.bower + 'restangular/dist/restangular.min.js',
         paths.bower + 'sweetalert/dist/sweetalert.min.js',
         paths.bower + 'ngSweetAlert/SweetAlert.min.js',
-        paths.bower + 'v-accordion/dist/v-accordion.min.js'
+        paths.bower + 'ng-file-upload/ng-file-upload.min.js'
     ])
         .pipe($.plumber())
         .pipe($.concat('vendor.min.js'))
