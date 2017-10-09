@@ -7,6 +7,7 @@
     function alertServices($mdToast, SweetAlert) {
         var service = {};
 
+        service.showSuccess = showSuccess;
         service.showBottomLeftToast = showBottomLeftToast;
         service.showTopRightToast = showTopRightToast;
         service.showNoDataAvailablePrompt = showNoDataAvailablePrompt;
@@ -28,6 +29,10 @@
 
         function showTopRightToast(message) {
             showToast(message, 'top right');
+        }
+
+        function showSuccess(message) {
+            showMessage(message, 'success');
         }
 
         function showMessage(message, type) {

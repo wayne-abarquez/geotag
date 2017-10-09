@@ -29,7 +29,8 @@ def process_geotag(file, caption):
     point.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/pal2/icon13.png'
     point.description = '<img src="' + kml_picpath + '" width="400" height="300" align="left" />'
 
-    kmz_filename = filename.rsplit('.', 1)[0].lower() + '.kmz'
+    # kmz_filename = filename.rsplit('.', 1)[0].lower() + '.kmz'
+    kmz_filename = 'geotag.kmz'
 
     kmz_filepath = os.path.join(KMZ_PATH, kmz_filename)
     kml.savekmz(kmz_filepath)
