@@ -4,3 +4,4 @@ logs/*.*
 .idea/
 client/src/bower_components/**
 client/node_modules/**
+client/static/kmz/*.kmz
