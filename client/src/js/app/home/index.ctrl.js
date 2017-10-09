@@ -27,8 +27,7 @@ angular.module('demoApp.home')
 
         function photoChanged (e) {
             var fileInput = e.target.files;
-
-            console.log('photoChanged: ', fileInput);
+            //console.log('photoChanged: ', fileInput);
 
             if (!fileInput.length) return;
 
@@ -37,11 +36,6 @@ angular.module('demoApp.home')
                     console.log('response: ',response);
                     //window.location = response.data;
                     alert('Photo successfully uploaded.');
-                    //var blob = new Blob([response.data]);
-                    //var link = document.createElement('a');
-                    //link.href = window.URL.createObjectURL(blob);
-                    //link.download = '12311.kmz';
-                    //link.click();
                 }, function (error) {
 
                 });

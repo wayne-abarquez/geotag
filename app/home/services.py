@@ -41,7 +41,7 @@ def process_geotag(file, caption):
     kmz_filename = 'geotag.kmz'
 
     kmz_filepath = os.path.join(KMZ_PATH, kmz_filename)
-    kml.savekmz(kmz_filepath)
+    kml.savekmz(kmz_filepath, format=False)
 
     return {
         'latlng': {
