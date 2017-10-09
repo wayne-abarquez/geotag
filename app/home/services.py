@@ -24,10 +24,18 @@ def process_geotag(file, caption):
     kml_picpath = kml.addfile(pic_filepath)
 
     point = kml.newpoint(name=caption, coords=[(img_data.lng, img_data.lat)])
-    point.style.labelstyle.color = simplekml.Color.red  # Make the text red
-    point.style.labelstyle.scale = 2
-    point.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/pal2/icon13.png'
+
+    style = simplekml.Style()  # creates shared style for all points
+    style.iconstyle.color = 'ffff00ff'  # magenta
+    style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/pal2/icon13.png'
+    style.iconstyle.scale = 1
+    point.style = style
+
     point.description = '<img src="' + kml_picpath + '" width="400" height="300" align="left" />'
+
+    # point.style.labelstyle.color = simplekml.Color.red  # Make the text red
+    # point.style.labelstyle.scale = 2
+    # point.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/pal2/icon13.png'
 
     # kmz_filename = filename.rsplit('.', 1)[0].lower() + '.kmz'
     kmz_filename = 'geotag.kmz'
