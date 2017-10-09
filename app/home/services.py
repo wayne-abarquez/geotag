@@ -47,6 +47,7 @@ def process_geotag(file, caption):
         }
     else:
         latlng = get_location_by_geolocation_api()
+        log.debug("GEOLOCATION LATLNG: {0}".format(latlng))
         if latlng is None:
             return False
 
